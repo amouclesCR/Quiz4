@@ -1,0 +1,21 @@
+.container-all {
+    padding: 10px;
+}
+.container-social {
+    width: 100%;
+    border: solid blue 1px;
+   padding: 10px;
+}
+
+.item {
+    display: flex;
+    
+    align-items: center;
+}
+.img-pa {
+    padding-top: 5px;
+}
+
+.hover:hover {
+    animation: bounce 1s;
+}

@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-all">
+  <div class="container-social">
+
+    <div class="cart-social">
+      <div >
+        <div>
+            <div class="card-columns">
+                <div class="card text-center img-pa hover" *ngFor="let soc of social" (hover)="hover()">
+                  <fa [name]="soc.img" size=2x></fa>
+                  <div class="card-body">
+                    <h2 class="card-title">{{soc.name}}</h2>
+                   <div *ngIf="soc.show">
+                      <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit enim eligendi nesciunt, eos aut perferendis!</p>
+                   </div>
+                    <button class="btn btn-primary" (click)="showed(soc)">Show</button>
+                  </div>
+                  
+                </div>
+              </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  
